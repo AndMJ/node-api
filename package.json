@@ -1,0 +1,21 @@
+{
+  "name": "node_api",
+  "version": "1.0.0",
+  "description": "Learning how to make a Node API",
+  "main": "",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "AndMJ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.0",
+    "mongoose": "^8.2.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
