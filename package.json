@@ -11,8 +11,7 @@
   "author": "AndMJ",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.0",
-    "mongoose": "^8.2.2"
+    "express": "^4.19.0"
   },
   "devDependencies": {
     "dotenv": "^16.4.5",
