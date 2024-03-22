@@ -1,12 +1,12 @@
-const cars = [
+const carsDB = [
     {
-        plate: "ADG7Q2",
+        license_plate: "ADG7Q2",
         manufacturer: "Ford",
         model: "Fiesta",
         color: "black",
     },
     {
-        plate: "O4QF02",
+        license_plate: "O4QF02",
         manufacturer: "Toyota",
         model: "Corola",
         color: "white",
@@ -19,20 +19,20 @@ module.exports = () => {
     model.listCars = async () => {
         try {
             //call to maria DB
-            return cars
+            return carsDB
         } catch (error) {
             console.log(error)
-            throw error
+            throw error //throws error from DB
         }
     }
 
     model.createCar = async (carData) => {
         try {
-            cars.push(carData)
+            carsDB.push(carData)//call to maria DB
             return carData
         } catch (error) {
             console.log(error)
-            throw error
+            throw error //throws error from DB
         }
     }
 
