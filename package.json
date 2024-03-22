@@ -11,8 +11,9 @@
   "author": "AndMJ",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.19.0",
-    "mongoose": "^8.2.2"
+    "mariadb": "^3.3.0"
   },
   "devDependencies": {
     "dotenv": "^16.4.5",
