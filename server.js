@@ -1,5 +1,5 @@
-const app = require("./config/express_config")
+const app = require("./config/express_config")();
 
-app().listen(3000, () => console.log("Server started!"))
+app.listen(app.get("port"), () => console.log("Server started!"))
 
 
